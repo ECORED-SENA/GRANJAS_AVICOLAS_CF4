@@ -440,7 +440,7 @@
     .tarjetas-hover.d-flex.mb-3
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img32.svg' alt='AvatarTop' style='width:100px').mx-2
+          img(src='@/assets/curso/img36.svg' alt='AvatarTop' style='width:100px').mx-2
           h4.text-white.mx-2.mb-0 Solución de
             br
             |problemas
@@ -450,7 +450,7 @@
     .tarjetas-hover.d-flex.mb-3
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img32.svg' alt='AvatarTop' style='width:100px').mx-2
+          img(src='@/assets/curso/img37.svg' alt='AvatarTop' style='width:100px').mx-2
           h6.text-white.mx-1.mb-0 Técnicas de
             br
             |experimentación
@@ -460,7 +460,7 @@
     .tarjetas-hover.d-flex.mb-5
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img32.svg' alt='AvatarTop' style='width:100px').mx-2
+          img(src='@/assets/curso/img38.svg' alt='AvatarTop' style='width:100px').mx-2
           h4.text-white.mx-2.mb-0 Informarse y
             br
             |aprender
