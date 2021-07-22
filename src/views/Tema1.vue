@@ -177,7 +177,7 @@
     
     //todo Proponer nuevo componenten como linea de tiempo ( COMENTAR DECISION CON DANIEL Y YULY )
     .row.mb-5.justify-content-center
-      .col-lg-2: img(src="@/assets/curso/img8.svg")
+      .col-lg-10: img(src="@/assets/curso/img8.svg")
 
 
 
@@ -194,6 +194,18 @@
         p.mb-0  
           b Trazar visualmente el plan y el cronograma de un proyecto:   
           |se muestra cuál es el trabajo, cuándo y en qué orden se hará.
+      .tarjeta.color-acento-contenido.p-3(x="65.5%" y="45%")
+        p.mb-0  
+          b Para organizar proyectos complejos: 
+          | su sistema permite la compilación de una gran cantidad de tareas a la vez.
+      .tarjeta.color-acento-contenido.p-3(x="60.5%" y="60%")
+        p.mb-0  
+          b Con el fin de coordinar múltiples involucrados: 
+          |permiten designar las tareas a muchas personas a la vez. Cada cual puede tener uno o varios responsables.
+      .tarjeta.color-acento-contenido.p-3(x="85.5%" y="90%")
+        p.mb-0  
+          b Se pueden estimar los cronogramas y cargas de trabajo: 
+          |desde su concepción otorgan la facultad de saber con anticipación cuánto tiempo y cuánta mano de obra requerirá cada actividad en específico
     p.mb-5 Para diseñar un diagrama de Gantt se requiere como insumo principal el cronograma elaborado en el plan de producción. Como recomendación se describe la siguiente metodología a seguir. 
     .row.mb-5.justify-content-center
       .col-lg-8 
@@ -265,8 +277,8 @@
           span Formato de orden de producción
           .indicador--click(v-if="mostrarIndicador")
       ModalA(:abrir-modal.sync="modal1")
-        .row.align-items-center
-          .col-12
+        .row.align-items-center.justify-content-center
+          .col-6
             figure
               img(src='@/assets/curso/img12.svg', alt='Texto que describa la imagen')
     h3 Características
