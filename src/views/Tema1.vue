@@ -77,7 +77,7 @@
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
-          tr
+          tr.h4.text-black
             th Materia prima
             th Mano de obra
             th Costos indirectos de fabricación
@@ -99,11 +99,13 @@
       br
       |Para poner en práctica sus conocimientos revise el siguiente ejemplo que permite determinar el costo mensual de la materia prima de una granja compuesta por 40 gallinas. 
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 1 Valoración materia prima
+      h5.fw-normal 
+        b Tabla 1 
+        |Valoración materia prima
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
-          tr
+          tr.h4.text-black
             th Insumo
             th Unidades
             th Valor unitario
@@ -126,11 +128,13 @@
             td $ 2.900.000
     p.mb-5 En el caso de la mano de obra, deben considerarse todos los gastos asociados al empleado, continuando con el ejemplo de la granja se pueden relacionar así:  
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 2 Valoración mano de obra
+      h5.fw-normal 
+        b Tabla 2  
+        | Valoración mano de obra
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
-          tr
+          tr.h4.text-black
             th Empleado
             th Salario
             th Prestaciones
@@ -170,11 +174,9 @@
           |La responsabilidad de coordinar el calendario presupuestal recae sobre el jefe del área de producción, dado que debe contar con la autoridad suficiente para disponer del talento humano con miras al diseño del mismo según sus indicaciones. Además, es de vital importancia que tenga el conocimiento técnico necesario para comprender todos los pormenores del proceso de producción, puesto que será el encargado de optimizar el sistema.
     p.mb-5 Para elaborar el calendario presupuestal es recomendable seguir una serie de pasos que garanticen que todos los aspectos relevantes en la producción han sido tenidos en cuenta. Se sugiere que cualquier proceso de gestión de tiempos considere los siguientes aspectos.
     p.mb-5 Proceso de gestión de tiempos, para esto es importante:
-
-    
-    
-    
-    
+      br 
+      br 
+      | La gestión de tienpos es muy importante en la organización y gestión de una empresa avícola, ya que, al no hacerse planeación y seguimiento se puede incurrir en sobregastos por pérdidas. 
     //todo Proponer nuevo componenten como linea de tiempo ( COMENTAR DECISION CON DANIEL Y YULY )
     .row.mb-5.justify-content-center
       .col-lg-10: img(src="@/assets/curso/img8.svg")
@@ -205,7 +207,7 @@
       .tarjeta.color-acento-contenido.p-3(x="85.5%" y="90%")
         p.mb-0  
           b Se pueden estimar los cronogramas y cargas de trabajo: 
-          |desde su concepción otorgan la facultad de saber con anticipación cuánto tiempo y cuánta mano de obra requerirá cada actividad en específico
+          |desde su concepción otorgan la facultad de saber con anticipación cuánto tiempo y cuánta mano de obra requerirá cada actividad en específico.
     p.mb-5 Para diseñar un diagrama de Gantt se requiere como insumo principal el cronograma elaborado en el plan de producción. Como recomendación se describe la siguiente metodología a seguir. 
     .row.mb-5.justify-content-center
       .col-lg-8 
@@ -225,7 +227,9 @@
               p.mb-0.text-dark Toda actividad productiva está sujeta a imprevistos que modifiquen los periodos de finalización de las tareas. La supervisión permanente del diagrama permitirá hacer modificaciones cuando así lo requiera la situación, otorgando más elementos de juicio para la entrega de los bienes terminados. Con esto, se evita que se programen entregas de productos en fechas en las que aún no se encuentran terminados.
     p.mb-5 Si bien existen herramientas especializadas en el diseño de este diagrama, es posible elaborar una versión simplificada del mismo haciendo uso de una hoja de cálculo. Retomando el ejemplo de la granja de producción avícola, se elabora la siguiente tabla y su diagrama correspondiente. 
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 3 Cronograma de actividades
+      h5.fw-normal 
+        b Tabla 3 
+        | Cronograma de actividades
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
@@ -261,7 +265,9 @@
             td 31-mayo
             td 11
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Figura 1 Diagrama de Gantt
+      h5.fw-normal 
+        b Figura 1 
+        | Diagrama de Gantt
     figure.mb-5 
       img(src='@/assets/curso/img11.svg')
     #t_1_3.titulo-segundo
@@ -302,7 +308,7 @@
           img(src='@/assets/curso/img15.svg' alt='AvatarTop' style='width:95px')
           .tarjeta.color-primario-claro.h-100
             .px-4.py-1.text-center
-              p Requiere de una planificación previa al inicio de la producción, dado que el alistamiento de material y la elaboración de la orden de producción varía en función de la cantidad de unidades a producir.
+              p La producción usualmente requiere de un pedido previo, es decir, se trabaja por encargo que, a su vez, suele obedecer a ventas efectuadas a los clientes.
     h3 Diligenciamiento
     p.mb-5 Al hacer una orden de producción, se espera que la elaboración de productos solicitados se alcance con los insumos presupuestados. El objetivo de esta es alistarlos para que estén disponibles en el momento correspondiente para llevar a cabo el proceso productivo con la menor cantidad de excedentes, evitando costos de almacenaje, así como la caducidad u obsolescencia. 
       br
@@ -334,7 +340,9 @@
           h5 Costos indirectos
           p Se efectúa la misma proporción que con el empleado, por lo que los costos indirectos de fabricación mensuales son los siguientes: por concepto de aseo y desinfección de la granja: $600.000, el pago de servicios públicos (agua y luz) es en promedio de $100.000 y el costo de la cascarilla de arroz asciende a $40.000.
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 4 Ejemplo de orden de producción
+      h5.fw-normal 
+        b Tabla 4 
+        | Ejemplo de orden de producción
     figure
       img(src='@/assets/curso/img20.svg', alt='Texto que describa la imagen')
     p.mb-5 Como se aprecia, el objetivo de la orden de producción es estimar las cantidades y costo de los insumos necesarios; así, se puede tener un estimado del valor unitario de producción y determinar de manera precisa el margen de rentabilidad por huevo vendido.
@@ -422,7 +430,7 @@
     .tarjetas-hover.d-flex.mb-5
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img32.svg' alt='AvatarTop' style='width:100px').mx-2
+          img(src='@/assets/curso/img32.svg' alt='AvatarTop' style='width:100px').mx-2.d-lg-block.d-none
           h4.text-white.mx-2.mb-0 Dinámica
             br
             |de grupos
@@ -453,7 +461,7 @@
     .tarjetas-hover.d-flex.mb-3
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img36.svg' alt='AvatarTop' style='width:100px').mx-2
+          img(src='@/assets/curso/img36.svg' alt='AvatarTop' style='width:100px').mx-2.d-lg-block.d-none
           h4.text-white.mx-2.mb-0 Solución de
             br
             |problemas
@@ -463,17 +471,15 @@
     .tarjetas-hover.d-flex.mb-3
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img37.svg' alt='AvatarTop' style='width:100px').mx-2
-          h6.text-white.mx-1.mb-0 Técnicas de
-            br
-            |experimentación
+          img(src='@/assets/curso/img37.svg' alt='AvatarTop' style='width:100px').mx-2.d-lg-block.d-none
+          h5.text-white.mx-0.mb-0.pe-5.me-5( style="width:80px" ).d-flex.flex-wrap.flex-grow-1 Técnicas de experimentación
       .tarjeta-hover__contenido.color-secundario.p-4.d-flex.align-items-center
         .ps-5 
           p.mb-0 Este sistema incentiva la resolución de problemas a través de la experimentación, sometiendo a prueba diferentes alternativas para resolver problemáticas. Con ello se busca que el personal se mantenga en una mentalidad de mejoramiento continuo, aportando nuevos conocimientos con cada nueva estrategia aplicada a un mismo problema.
     .tarjetas-hover.d-flex.mb-5
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
-          img(src='@/assets/curso/img38.svg' alt='AvatarTop' style='width:100px').mx-2
+          img(src='@/assets/curso/img38.svg' alt='AvatarTop' style='width:100px').mx-2.d-lg-block.d-none
           h4.text-white.mx-2.mb-0 Informarse y
             br
             |aprender
@@ -506,43 +512,43 @@ export default {
       {
         titulo: 'Objetivos en común:',
         texto:
-          'se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.',
+          'Se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.',
         imagen: require('@/assets/curso/img25.jpg'),
       },
       {
         titulo: 'Funciones por trabajador: ',
         texto:
-          'definir las labores que ejecutará cada integrante de acuerdo con su conocimiento y fortalezas hará que se incremente la efectividad, puesto que cada trabajador aportará desde una posición diferente.',
+          'Definir las labores que ejecutará cada integrante de acuerdo con su conocimiento y fortalezas hará que se incremente la efectividad, puesto que cada trabajador aportará desde una posición diferente.',
         imagen: require('@/assets/curso/img26.jpg'),
       },
       {
         titulo: 'Interdependencia: ',
         texto:
-          'la secuencia de tareas a desarrollar debe crear una red en la que cada integrante se apoye en los demás, de forma que se complementen entre sí.',
+          'La secuencia de tareas a desarrollar debe crear una red en la que cada integrante se apoye en los demás, de forma que se complementen entre sí.',
         imagen: require('@/assets/curso/img27.jpg'),
       },
       {
         titulo: 'Reglas claras: ',
         texto:
-          'definidas por el mismo equipo o por su líder, enmarcar el trabajo dentro de una serie de reglas evita malentendidos y promueve la ejecución del trabajo de una forma organizada.',
+          'Definidas por el mismo equipo o por su líder, enmarcar el trabajo dentro de una serie de reglas evita malentendidos y promueve la ejecución del trabajo de una forma organizada.',
         imagen: require('@/assets/curso/img28.jpg'),
       },
       {
         titulo: 'Comunicación acertada: ',
         texto:
-          'debe existir un flujo constante de comunicación entre los miembros del equipo, La retroalimentación es importante para atacar aquellas debilidades que pasarían desapercibidas al realizar las tareas de forma individual.',
+          'Debe existir un flujo constante de comunicación entre los miembros del equipo, La retroalimentación es importante para atacar aquellas debilidades que pasarían desapercibidas al realizar las tareas de forma individual.',
         imagen: require('@/assets/curso/img29.jpg'),
       },
       {
         titulo: 'Responsabilidad: ',
         texto:
-          'se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.',
+          'Así como se sugiere una designación de tareas, también se deben delimitar las responsabilidades. Aunque los objetivos se alcancen de manera conjunta, cada integrante debe responder por su porción del trabajo a realizar.',
         imagen: require('@/assets/curso/img30.jpg'),
       },
       {
         titulo: 'Liderazgo: ',
         texto:
-          'todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. ',
+          'Todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. ',
         imagen: require('@/assets/curso/img31.jpg'),
       },
     ],
