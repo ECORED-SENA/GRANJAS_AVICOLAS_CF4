@@ -15,7 +15,7 @@
           br
           br
           |El alcance del plan de mejora abarca todas las áreas de la empresa, esto se debe a que cualquier proceso dentro del sistema es susceptible de mejora. Debido a ello, estos son responsabilidad de las directivas o la gerencia general, este grupo de personas está acompañado de los directores de cada área, sin embargo, durante el proceso de diseño resulta de vital importancia contar con la retroalimentación del personal operativo, quienes pueden aportar hallazgos que pasen desapercibidos en los niveles más altos de la organización. 
-      .col-md-5: img(src="@/assets/curso/img70.png")
+      .col-md-5: img(src="@/assets/curso/img70.svg")
     #t_4_1.titulo-segundo
       h2 4.1 Hallazgos
     p.mb-5 El proceso de supervisión y evaluación finaliza con la recopilación de hallazgos, entendidos como la identificación de una problemática; para lo cual el Departamento Administrativo del Servicio Civil Distrital los clasifica según el proceso así:
@@ -64,63 +64,67 @@
     p.mb-5 Para ejecutar un plan de mejora que cumpla con su objetivo de perfeccionar los procesos evaluados, se recomienda realizar los siguientes pasos.
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar.pt-5
+        .tarjeta-avatar-b.pt-5
           img(src='@/assets/curso/img62.svg' alt='AvatarTop' style='width:95px')
           .tarjeta.color-primario-claro.h-100
-            .px-4.py-1.text-center
+            .p-5
               h4 Análisis de las causas
               p Consiste en identificar los procesos susceptibles de mejora y priorizados en relación con su relevancia para dar cumplimiento al objetivo misional de la compañía. Seguido de ello, se deben identificar las causas de la problemática y sus efectos negativos en la operación.
+    .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar.pt-5
-          img(src='@/assets/curso/img63.svg' alt='AvatarTop' style='width:95px')
+        .tarjeta-avatar-b.pt-5
+          img(src='@/assets/curso/img63.svg' alt='AvatarTop' style='width:50px !important')
           .tarjeta.color-primario-claro.h-100
-            .px-4.py-1.text-center
+            .p-5
               h4 Propuesta de planificación
               p Se debe diseñar un plan que sea viable y lo suficientemente flexible para implementar acciones adicionales a futuro. A la hora de estructurarlo se incorporan los hallazgos del paso anterior y se analizan las posibles soluciones haciendo uso de herramientas de planeación como por ejemplo: la lluvia de ideas o el diagrama de Gantt, explicados previamente en el componente.
                 br
                 br
                 |Una vez sean definidas las soluciones más efectivas, es necesario proponer las acciones y las tareas a realizar especificando los beneficios que se esperan obtener. Finalmente, se documenta todo el proceso en el plan de mejora.
+              .titulo-sexto.color-acento-contenido.bg-transparent
+                h5.fw-normal 
+                  b Tabla 9 
+                  |Hoja de trabajo por área de mejora
+              .tabla-a.color-acento-contenido.mb-5 
+                table
+                  caption Nota. Tomada de Aneca (s.f.) 
+                  thead
+                    th(colspan=2).h4.text-start ÁREA DE MEJORA N.° 1
+                  tbody.bg-white
+                    tr
+                      td.color-secundario-claro Descripción del problema
+                      td 
+                    tr
+                      td.color-secundario-claro Causas que provocan el problema 
+                      td 
+                    tr
+                      td.color-secundario-claro Objetivos a conseguir
+                      td 
+                    tr
+                      td.color-secundario-claro Acciones de mejora
+                      td 1.
+                        br
+                        |2.
+                        br
+                        |3.
+                        br
+                        |(…)
+                    tr
+                      td.color-secundario-claro Beneficios esperados
+                      td 
+                        
+    .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar.pt-5
+        .tarjeta-avatar-b.pt-5
           img(src='@/assets/curso/img64.svg' alt='AvatarTop' style='width:95px')
           .tarjeta.color-primario-claro.h-100
-            .px-4.py-1.text-center
+            .p-5
               h4 Implementación y seguimiento: 
               p En esta fase deben integrarse los trabajadores propuestos para ejecutar las acciones de mejora. Es su tarea llevar a cabo las acciones y dar seguimiento con base en los indicadores de impacto y desempeño. Debido a que se encuentran directamente involucrados en la ejecución del plan de mejora, ellos son quienes pueden retroalimentar su diseño de forma más oportuna.
                 br
                 br
                 |La evaluación constante de las medidas propuestas permitirá implementar acciones alternativas durante la ejecución del plan. Se recomienda que tanto la planificación como la ejecución sean acompañadas con un cronograma para delimitar el tiempo disponible y realizar cada tarea planeada, situación que no debe limitar la aplicación de medidas de forma permanente cuando la problemática lo amerite.
-    .titulo-sexto.color-acento-contenido.bg-white
-      h5.fw-normal 
-        b Tabla 9 
-        |Hoja de trabajo por área de mejora
-    .tabla-a.color-acento-contenido.mb-5 
-      table
-        caption Nota. Tomada de Aneca (s.f.) 
-        thead
-          th(colspan=2).h4.text-start ÁREA DE MEJORA N.° 1
-        tbody.bg-white
-          tr
-            td.color-secundario-claro Descripción del problema
-            td 
-          tr
-            td.color-secundario-claro Causas que provocan el problema 
-            td 
-          tr
-            td.color-secundario-claro Objetivos a conseguir
-            td 
-          tr
-            td.color-secundario-claro Acciones de mejora
-            td 1.
-              br
-              |2.
-              br
-              |3.
-              br
-              |(…)
-          tr
-            td.color-secundario-claro Beneficios esperados
-            td 
+    
     p.mb-5 Por otro lado, es imperativo definir indicadores de seguimiento lo cual permitirá cuantificar el cumplimiento de metas y brindar las herramientas necesarias para emitir un juicio de valor más objetivo.
       br
       br
