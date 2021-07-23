@@ -472,7 +472,7 @@
       .tarjeta-hover__boton.p-3.color-primario.d-flex.align-items-center
         .tarjeta-hover__boton__content.d-flex.mx-2.align-items-center
           img(src='@/assets/curso/img37.svg' alt='AvatarTop' style='width:100px').mx-2.d-lg-block.d-none
-          h5.text-white.mx-0.mb-0.pe-5.me-5( style="width:80px" ).d-flex.flex-wrap.flex-grow-1 Técnicas de experimentación
+          h6.text-white.mx-0.mb-0.pe-5.me-5( style="width:80px" ).d-flex.flex-wrap.flex-grow-1 Técnicas de experimentación
       .tarjeta-hover__contenido.color-secundario.p-4.d-flex.align-items-center
         .ps-5 
           p.mb-0 Este sistema incentiva la resolución de problemas a través de la experimentación, sometiendo a prueba diferentes alternativas para resolver problemáticas. Con ello se busca que el personal se mantenga en una mentalidad de mejoramiento continuo, aportando nuevos conocimientos con cada nueva estrategia aplicada a un mismo problema.

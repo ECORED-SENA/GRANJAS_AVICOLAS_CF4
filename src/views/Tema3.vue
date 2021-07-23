@@ -17,8 +17,8 @@
       h2 3.1 Teoría de la oferta y la demanda
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yL8rOMitHFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Teoría de la oferta y la demanda
     .row.mb-5
       .col-md-6
         p.mb-5 Con esta se presume que el precio se establecerá por la unión de dos variables fundamentales: la necesidad de los consumidores y la oferta de los productores. 
