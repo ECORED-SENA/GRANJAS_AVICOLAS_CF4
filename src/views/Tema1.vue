@@ -215,14 +215,14 @@
             template(v-slot:imagen)
               figure.bg-white
                 img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen')
-            .tarjeta.color-secundario.p-3(x="94.3%" y="12.2%")
+            .tarjeta.color-primario.p-3(x="94.3%" y="12.2%")
               p.mb-0.text-dark  Deben agregarse las tareas en sentido vertical con sus fechas de inicio y final. El horizonte de tiempo se extiende de manera horizontal, por lo que aquellas que necesiten de un periodo más largo, tendrán una mayor longitud.
-            .tarjeta.color-primario.p-3(x="4.3%" y="12.2%")
-              p.mb-0.text-dark.text-end  Debe ser tan extenso como el ciclo productivo de la empresa, esto abarca todas las actividades relacionadas con la producción del bien a vender, es decir, desde la orden de compra de materia prima, hasta la puesta en inventario del producto terminado.
-            .tarjeta.color-acento-contenido.p-3(x="94.3%" y="90.2%")
+            .tarjeta.color-secundario.p-3(x="4.3%" y="12.2%")
+              p.mb-0.text-dark  Debe ser tan extenso como el ciclo productivo de la empresa, esto abarca todas las actividades relacionadas con la producción del bien a vender, es decir, desde la orden de compra de materia prima, hasta la puesta en inventario del producto terminado.
+            .tarjeta.color-acento-botones.p-3(x="94.3%" y="90.2%")
               p.mb-0.text-dark En la ejecución de los procesos de producción, existen tareas que son dependientes de otras, hacer claridad sobre estas permite anticiparse a retrasos que afecten varias actividades del cronograma inicial.
-            .tarjeta.color-acento-botones.p-3(x="4.3%" y="90.2%")
-              p.mb-0.text-dark.text-end Toda actividad productiva está sujeta a imprevistos que modifiquen los periodos de finalización de las tareas. La supervisión permanente del diagrama permitirá hacer modificaciones cuando así lo requiera la situación, otorgando más elementos de juicio para la entrega de los bienes terminados. Con esto, se evita que se programen entregas de productos en fechas en las que aún no se encuentran terminados.
+            .tarjeta.color-acento-contenido.p-3(x="4.3%" y="90.2%")
+              p.mb-0.text-dark Toda actividad productiva está sujeta a imprevistos que modifiquen los periodos de finalización de las tareas. La supervisión permanente del diagrama permitirá hacer modificaciones cuando así lo requiera la situación, otorgando más elementos de juicio para la entrega de los bienes terminados. Con esto, se evita que se programen entregas de productos en fechas en las que aún no se encuentran terminados.
     p.mb-5 Si bien existen herramientas especializadas en el diseño de este diagrama, es posible elaborar una versión simplificada del mismo haciendo uso de una hoja de cálculo. Retomando el ejemplo de la granja de producción avícola, se elabora la siguiente tabla y su diagrama correspondiente. 
     .titulo-sexto.color-acento-contenido.bg-white
       h5 Tabla 3 Cronograma de actividades
@@ -281,6 +281,7 @@
           .col-6
             figure
               img(src='@/assets/curso/img12.svg', alt='Texto que describa la imagen')
+              figcaption Nota. Tomada Guarnizo y Cárdenas (2015) 
     h3 Características
     p.mb-5 La utilización de las órdenes de producción implica que el proceso productivo dará inicio una vez se emitan, pues en ellas se consigna el tipo y número de unidades a producir; de otra parte, las órdenes de producción suelen contar con las siguientes características.
     .row.mb-5

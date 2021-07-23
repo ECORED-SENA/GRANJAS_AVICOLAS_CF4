@@ -91,9 +91,10 @@
                 br
                 |La evaluación constante de las medidas propuestas permitirá implementar acciones alternativas durante la ejecución del plan. Se recomienda que tanto la planificación como la ejecución sean acompañadas con un cronograma para delimitar el tiempo disponible y realizar cada tarea planeada, situación que no debe limitar la aplicación de medidas de forma permanente cuando la problemática lo amerite.
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 6 Modelo de informe de ejecución del área de producción
+      h5 Tabla 9 Hoja de trabajo por área de mejora
     .tabla-a.color-acento-contenido.mb-5 
       table
+        caption Nota. Tomada de Aneca (s.f.) 
         thead
           th(colspan=2).h4.text-start ÁREA DE MEJORA N.° 1
         tbody.bg-white
@@ -123,9 +124,10 @@
       br
       |La siguiente tabla aporta un modelo de seguimiento numerado por área y problemática, bajo esta estructura es posible segmentar el análisis y compartir únicamente los resultados que le competan a los trabajadores involucrados:
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 6 Modelo de informe de ejecución del área de producción
+      h5 Tabla 10 Matriz de seguimiento de plan de     mejora
     .tabla-a.color-acento-contenido.mb-5 
       table
+        caption Nota. Tomada de Aneca (s.f.) 
         thead
           tr(style="background-color:#E2F6C6")
             th(colspan=8).h3.text-black PLAN DE MEJORA N-(N+X)

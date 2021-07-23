@@ -240,7 +240,7 @@
                 td $3.600 
                 td - $1.100 
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 7 Informe presupuesto de producción estático
+      h5 Tabla 8 Informe presupuesto de producción flexible
     .tabla-a.color-acento-contenido.mb-5 
           table
             thead
