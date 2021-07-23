@@ -31,14 +31,16 @@
         p.mb-5 Se suele decir que el mercado tiene la capacidad de autorregularse bajo el modelo económico actual, esta afirmación proviene de la teoría, puesto que aquí se explica cómo el precio de los productos fluctúa de tal forma que si sube demasiado, los clientes no lo comprarán, por lo que el exceso de oferta para la baja demanda obligará a los productores a reducir el precio de venta lo suficiente como para salir de su inventario. Aquel punto en el que coinciden las pretensiones de la oferta con las de la demanda, es conocido como el equilibrio del mercado.
       .col-md-6
         .titulo-sexto.color-acento-contenido.bg-white
-          h5 Figura 3  Curva de oferta y demanda
+          h5.fw-normal 
+            b Figura 3  
+            |Curva de oferta y demanda
         figure
           img(src='@/assets/curso/img53.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de https://economipedia.com/definiciones/ley-de-oferta-y-demanda.html
     #t_3_2.titulo-segundo
       h2 3.2 Cálculo de la demanda
     p.mb-5 La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿cómo determino el número de compradores que tendrá mi producto? O, ¿cuántas unidades adquiere cada uno y con qué frecuencia? 
-    LineaTiempoD.color-acento-contenido.bg-white
+    LineaTiempoD.color-acento-contenido.bg-white.mb-5
         div(numero="1" titulo="Segmentar el mercado") 
           .row
             .col-md-6
@@ -74,7 +76,7 @@
                 br
                 |Por otro lado, algunas empresas compiten con un menor precio de venta y otros con productos de mayor calidad, por lo que, sea cual sea la estrategia, debe existir un margen de rentabilidad que permita cubrir los gastos de ventas y administrativos, lo que dejar utilidad suficiente para garantizar la permanencia en el mercado.
             .col-md-6: img(src="@/assets/curso/img58.jpg" style="width:472px")
-
+    p.mb-5 La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿cómo determino el número de compradores que tendrá mi producto? O, ¿cuántas unidades adquiere cada uno y con qué frecuencia? 
 
 
 

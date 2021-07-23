@@ -91,7 +91,9 @@
                 br
                 |La evaluación constante de las medidas propuestas permitirá implementar acciones alternativas durante la ejecución del plan. Se recomienda que tanto la planificación como la ejecución sean acompañadas con un cronograma para delimitar el tiempo disponible y realizar cada tarea planeada, situación que no debe limitar la aplicación de medidas de forma permanente cuando la problemática lo amerite.
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 9 Hoja de trabajo por área de mejora
+      h5.fw-normal 
+        b Tabla 9 
+        |Hoja de trabajo por área de mejora
     .tabla-a.color-acento-contenido.mb-5 
       table
         caption Nota. Tomada de Aneca (s.f.) 
@@ -124,7 +126,9 @@
       br
       |La siguiente tabla aporta un modelo de seguimiento numerado por área y problemática, bajo esta estructura es posible segmentar el análisis y compartir únicamente los resultados que le competan a los trabajadores involucrados:
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 10 Matriz de seguimiento de plan de     mejora
+      h5.fw-normal 
+        b Tabla 10 
+        |Matriz de seguimiento de plan de     mejora
     .tabla-a.color-acento-contenido.mb-5 
       table
         caption Nota. Tomada de Aneca (s.f.) 
@@ -258,19 +262,29 @@
           .col-lg-10
             TabsA.color-acento-contenido.bg-white.mb-5
               .tarjeta.color-primario-claro.p-4(titulo="Análisis de contexto")
-                  img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Análisis de contexto
                   p El contexto de una organización está dado por factores internos como la cultura organizacional, los valores o el desempeño de la empresa; así como factores externos como los entornos legales, sociales o económicos. La comprensión de estos elementos puede llevar a identificar problemáticas a abordar, por ejemplo, el incumplimiento de una disposición legal.
               .tarjeta.color-primario-claro.p-4(titulo="Partes interesadas")
-                  img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Partes interesadas
                   p Son aquellos terceros que tienen influencia significativa en la empresa. Deben considerarse si, en caso de no cumplir con sus exigencias o expectativas, pueden afectar la sostenibilidad de la organización. Ejemplo de ellas son los proveedores, acreedores o clientes. De aquí pueden surgir acciones producto de problemáticas identificadas con incumplimientos en pagos o baja satisfacción con el producto.
               .tarjeta.color-primario-claro.p-4(titulo="Análisis de indicadores")
-                  img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Análisis de indicadores
                   p La evaluación constante de los indicadores de gestión pueden aportar para la toma de medidas de forma oportuna. Por ejemplo, si se observa una tendencia a la baja en las unidades producidas, esto puede conllevar a acciones preventivas como un mantenimiento a la maquinaria o su renovación.
               .tarjeta.color-primario-claro.p-4(titulo="Informes de no conformidad")
-                  img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Informes de no conformidad
                   p Los procedimientos de supervisión pueden arrojar resultados desfavorables en relación con el proceso en evaluación. Con el análisis de esta documentación se definirá si es necesario aplicar las acciones a que haya lugar. 
               .tarjeta.color-primario-claro.p-4(titulo=" Informes de auditoría")
-                  img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img67.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Informes de auditoría
                   p Cualquier auditoría interna o externa podrá aportar hallazgos al sistema de gestión de calidad, que deberán ser atendidos según las recomendaciones del auditor.
         h4 Etapas
         .contenedor.color-secundario.py-3.px-1.rounded1.mb-4
@@ -285,19 +299,29 @@
           .col-lg-10
             TabsA.color-acento-contenido.bg-white.mb-5
               .tarjeta.color-primario-claro.p-4(titulo="Definir la acción")
-                  img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Definir la acción
                   p Se debe contextualizar la acción que se va a ejecutar, definir las responsabilidades del personal y documentarlo.
               .tarjeta.color-primario-claro.p-4(titulo="Análisis de causa")
-                  img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Análisis de causa
                   p En esta fase se debe profundizar en la causa de la problemática. A mayor nivel de detalle, más acertada serán las acciones para abordarla.
               .tarjeta.color-primario-claro.p-4(titulo="Planificación de actividades")
-                  img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Planificación de actividades
                   p Diseñar un cronograma de las actividades a desarrollar definiendo el personal a cargo para cada una de ellas y asignando los recursos necesarios.
               .tarjeta.color-primario-claro.p-4(titulo="Registro de resultados")
-                  img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Registro de resultados
                   p Una vez aplicadas las acciones, se debe dejar registro por escrito de los pormenores, la forma como fueron efectuadas las actividades y las dificultades que se evidenciaron en su ejecución.
               .tarjeta.color-primario-claro.p-4(titulo="Evaluación de las acciones")
-                  img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                  .titulos.d-flex.align-items-center.mb-3
+                    img(src='@/assets/curso/img69.svg', alt='Texto que describa la imagen' style='width:47px')
+                    h3.ms-3.mb-0 Evaluación de las acciones
                   p Finalmente se debe hacer una comparativa entre los indicadores previos y posteriores a la aplicación de las acciones. Es importante evidenciar la mejora en el proceso o el resultado para tener certeza de su efectividad. En caso de que se observe la continuación de la no conformidad u oportunidad de mejora, se deberá replantear la situación para definir si es necesario la aplicación de otras acciones.
 
 

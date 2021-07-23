@@ -50,7 +50,9 @@
       br
       |En este sentido, un informe de ejecución general podría presentarse de la siguiente forma: 
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 5 Modelo de informe de ejecución general
+      h5.fw-normal 
+        b Tabla 5 
+        | Modelo de informe de ejecución general
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
@@ -94,7 +96,9 @@
             td 
     p.mb-5 Además, es vital también conocer cómo se puede elaborar un informe del área de producción, por lo que puede ver un diseño en la siguiente tabla.
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 6 Modelo de informe de ejecución del área de producción
+      h5.fw-normal 
+        b Tabla 6 
+        |Modelo de informe de ejecución del área de producción
     .tabla-a.color-acento-contenido.mb-5 
       table
         thead
@@ -205,7 +209,9 @@
               b ¿el nuevo precio se debe a la inflación o al incremento del costo de las materias primas?
     p.mb-5 Para ilustrar el caso anterior, se presenta un presupuesto de producción estático y uno flexible.
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 7 Informe presupuesto de producción estático
+      h5.fw-normal 
+        b Tabla 7 
+        |Informe presupuesto de producción estático
     .row.mb-5.justify-content-center
       .col-md-10
         .tabla-a.color-acento-contenido.mb-5 
@@ -240,7 +246,9 @@
                 td $3.600 
                 td - $1.100 
     .titulo-sexto.color-acento-contenido.bg-white
-      h5 Tabla 8 Informe presupuesto de producción flexible
+      h5.fw-normal 
+        b Tabla 8 
+        |Informe presupuesto de producción flexible
     .tabla-a.color-acento-contenido.mb-5 
           table
             thead

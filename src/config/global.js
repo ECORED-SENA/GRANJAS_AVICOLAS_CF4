@@ -239,7 +239,7 @@ export default {
   complementario: [
     {
       texto:
-        'Saber Programas. (2017). ¿Cómo crear un diagrama de Gantt en Excel? [ Cronograma ',
+        'Saber Programas. (2017). ¿Cómo crear un diagrama de Gantt en Excel? [ Cronograma usando los gráficos] [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=chR6kx4btDQ',
     },
@@ -275,32 +275,32 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Felipe Avilan Lozano',
         cargo: 'Experto temático',
-        centro: 'Centro Agropecuario la granja. Regional Tolima',
+        centro: 'Centro Agropecuario la granja - Regional Tolima',
       },
       {
         nombre: 'Lady Johanna Cruz',
-        cargo: 'Experto temático',
-        centro: 'Centro Agropecuario la granja. Regional Tolima',
+        cargo: 'Experta temática',
+        centro: 'Centro Agropecuario la granja - Regional Tolima',
       },
       {
         nombre: 'Diana Marcela Luis Vásquez',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de gestión industrial.Regional Distrito Capital',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Ana Vela Rodríguez Velásquez',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
-        cargo: 'Evaluadora Instruccional',
-        centro: 'Centro de gestión industrial.Regional Distrito Capital',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
@@ -314,24 +314,24 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: [
@@ -343,20 +343,20 @@ export default {
         ],
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'María Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
