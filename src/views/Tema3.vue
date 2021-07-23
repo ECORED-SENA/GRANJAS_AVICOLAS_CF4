@@ -76,7 +76,7 @@
                 br
                 |Por otro lado, algunas empresas compiten con un menor precio de venta y otros con productos de mayor calidad, por lo que, sea cual sea la estrategia, debe existir un margen de rentabilidad que permita cubrir los gastos de ventas y administrativos, lo que dejar utilidad suficiente para garantizar la permanencia en el mercado.
             .col-md-6: img(src="@/assets/curso/img58.jpg" style="width:472px")
-    p.mb-5 La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿cómo determino el número de compradores que tendrá mi producto? O, ¿cuántas unidades adquiere cada uno y con qué frecuencia? 
+    p.mb-5 Finalmente, es indispensable conocer qué se puede hacer de manera permanente para alcanzar el objetivo de producción y el porcentaje de ventas al final del proceso productivo.
 
 
 

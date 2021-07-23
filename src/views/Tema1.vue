@@ -176,7 +176,7 @@
     p.mb-5 Proceso de gestión de tiempos, para esto es importante:
       br 
       br 
-      | La gestión de tienpos es muy importante en la organización y gestión de una empresa avícola, ya que, al no hacerse planeación y seguimiento se puede incurrir en sobregastos por pérdidas. 
+      | La gestión de tiempos es muy importante en la organización y gestión de una empresa avícola, ya que, al no hacerse planeación y seguimiento se puede incurrir en sobregastos por pérdidas. 
     //todo Proponer nuevo componenten como linea de tiempo ( COMENTAR DECISION CON DANIEL Y YULY )
     .row.mb-5.justify-content-center
       .col-lg-10: img(src="@/assets/curso/img8.svg")

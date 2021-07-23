@@ -280,17 +280,17 @@ export default {
       {
         nombre: 'Andrés Felipe Avilan Lozano',
         cargo: 'Experto temático',
-        centro: 'Centro Agropecuario la granja - Regional Tolima',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
       },
       {
         nombre: 'Lady Johanna Cruz',
         cargo: 'Experta temática',
-        centro: 'Centro Agropecuario la granja - Regional Tolima',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
       },
       {
         nombre: 'Diana Marcela Luis Vásquez',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Ana Vela Rodríguez Velásquez',
@@ -300,7 +300,7 @@ export default {
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
-        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
@@ -334,13 +334,30 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: [
-          'Zuleidy Maria Ruiz Torres',
-          'Wilson Andrés Arenales Cáceres',
-          'Gilberto Junior Rodríguez Rodríguez',
-          'José Jaime Luis Tang Pinzón',
-          'Carlos Eduardo Garavito Parada',
-        ],
+        nombre: ['Zuleidy Maria Ruiz Torres'],
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: ['Wilson Andrés Arenales Cáceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Gilberto Junior Rodríguez Rodríguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['José Jaime Luis Tang Pinzón'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Carlos Eduardo Garavito Parada'],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
